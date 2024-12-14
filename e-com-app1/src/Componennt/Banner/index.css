@@ -1,0 +1,33 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-container h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #a71d1d;
+}
+.btn {
+  display: inline-block;
+  background: #a71d1d;
+  color: aliceblue;
+  padding: 15px 30px;
+  margin: 30px 0;
+  border-radius: 10px;
+  transition: background-colour 0.5s;
+  border: none;
+}
+.btn:hover {
+  background-color: #641515;
+  font-weight: 800;
+}
+.banner-image {
+  width: 40%;
+}
+.banner-image:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+}
